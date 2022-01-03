@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+   overflow: hidden;
+   background-color:#E2F7F4;
+}
+.nav_part{
+
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.header-bio{
+    padding: 20px;
+    float: left;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #11999E;
+    font-weight: bold;
+}
+.contact{
+ float: right;
+}
+.contact p{
+    margin: 0;
+}
+.contact p a{
+    text-decoration: none;
+}
+.contact p a:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+/* header end here */
+.cleardiv{
+    content: " ";
+    clear: both;
+}
+hr{
+    border-top: 3px solid black;
+    width: 100%;
+}
+.hr2{
+    border: 1px solid black;
+}
+/* main section start */
+
+/* parsonal information start */
+.left-div{
+    width: 40%;
+    float: left;
+}
+.right-div{
+    width: 60%;
+    text-align: center;
+    float: right;
+}
+.first-table tr td{
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.first-table tr .spacing{
+    text-align: left;
+    padding-left: 200px;
+}
+.career{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: gray;
+    border: 1px solid black;
+}
+.career h2{
+    color: black;
+}
+.objective p{
+    margin-top: 20px;
+}
+.objective b a{
+    font-size: 30px;
+}
+.icon{
+    margin-left: 50px;
+}
+.icon p{
+    margin: 0;
+}
+.education h4, table{
+    
+    margin-left: 50px;
+}
+.education table tr td{
+    padding: 10px 100px;
+}
+.education .objective b a{
+    margin-left: 50px;
+
+}
+.education .objective p{
+    margin-left: 50px;
+}
+
+/* parsonal information end */
+
+
+
+
+/* main section end */
+/* footer part start */
+.footer_part{
+    overflow: hidden;
+    
+    padding: 20px;
+}
+.footer_part ul{
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+}
+.footer_part ul li{
+ float: left;
+ 
+ list-style: none;
+ text-align: center;
+}
+.footer_part ul li a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer_part ul li a:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
